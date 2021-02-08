@@ -26,7 +26,7 @@ class Application:
         self.nomeLabel = Label(self.segundoContainer,text="Nome", font=self.fontePadrao)
         self.nomeLabel.pack(side=LEFT)
 
-        self.nome = Entry(self.segundoContainer)
+        self.nome = Enter(self.segundoContainer)
         self.nome["width"] = 30
         self.nome["font"] = self.fontePadrao
         self.nome.pack(side=LEFT)
@@ -34,7 +34,7 @@ class Application:
         self.senhaLabel = Label(self.terceiroContainer, text="Senha", font=self.fontePadrao)
         self.senhaLabel.pack(side=LEFT)
 
-        self.senha = Entry(self.terceiroContainer)
+        self.senha = Enter(self.terceiroContainer)
         self.senha["width"] = 30
         self.senha["font"] = self.fontePadrao
         self.senha["show"] = "*"
